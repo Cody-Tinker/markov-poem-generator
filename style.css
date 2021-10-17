@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+  min-height: 50vh;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(214, 79, 101);
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+textarea:focus {
+  outline: none !important;
+}
+
+#textInput {
+  resize: none;
+  width: 50vw;
+  height: 30vh;
+  font-family: "Poppins";
+}
+
+.btn {
+  font-family: helvetica;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.yourMarkov {
+  margin: 0;
+  font-weight: 700;
+}
+
+#textOutput {
+  margin: 0px;
+  resize: none;
+  margin-top: 20px;
+  width: 50vw;
+}
